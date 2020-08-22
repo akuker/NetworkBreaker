@@ -224,6 +224,7 @@ F 0 "P1" H 2900 3417 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 2900 3326 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H -2000 1350 50  0001 C CNN
 F 3 "" H -2000 1350 50  0001 C CNN
+F 4 "C50982" H 2850 2300 50  0001 C CNN "LCSC"
 	1    2850 2300
 	1    0    0    -1  
 $EndComp
