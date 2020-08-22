@@ -1,0 +1,20 @@
+Comment,Designator,Footprint,LCSC
+100nF,"C1,C5",Capacitor_SMD:C_0805_2012Metric,C83055
+4.7uF,C2,Capacitor_SMD:C_1206_3216Metric,C123664
+47pF,"C3,C4",Capacitor_SMD:C_0805_2012Metric,C123648
+10nF,C6,Capacitor_SMD:C_0805_2012Metric,C83058
+Green,"D1,D2,D3,D4",LED_SMD:LED_0805_2012Metric, C125090
+D_Small,"D5,D6,D7,D8",Diode_SMD:D_SOD-123F,C108803
+Ferrite_Bead_Small,FB1,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C74487
+8P8C_Shielded,"J1,J2,J3",Connector_RJ:RJ45_Amphenol_RJHSE5380,C86575
+USB_B_Micro,J4,Connector_USB:USB_Micro-B_Wuerth_629105150521,C319170
+Conn_01x06,J5,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,N/A
+M4-5HAW,"K1,K2,K3,K4",Relay_THT:Relay_DPDT_Finder_30.22,C165868
+M2.5,"MK1,MK2,MK3,MK4",MountingHole:MountingHole_2.7mm_M2.5,N/A
+Conn_02x20_Odd_Even,P1,Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical,C50982
+2N3904,"Q1,Q2,Q3,Q4",Package_TO_SOT_SMD:SOT-23,C18536
+220,"R1,R2,R3,R4",Resistor_SMD:R_0805_2012Metric,C413172
+10k,"R5,R6,R7,R8",Resistor_SMD:R_0805_2012Metric,C180849
+27,"R9,R10",Resistor_SMD:R_0805_2012Metric,C413252
+TLP627-4,U1,Package_DIP:DIP-16_W7.62mm,C89243
+FT230XS,U2,Package_SO:SSOP-16_3.9x4.9mm_P0.635mm,C69082
