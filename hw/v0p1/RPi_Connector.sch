@@ -1,0 +1,282 @@
+EESchema Schematic File Version 4
+LIBS:NetworkBreaker-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 5F61111D
+P 3350 1250
+AR Path="/5F61111D" Ref="#PWR?"  Part="1" 
+AR Path="/5F60B892/5F61111D" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 3350 1100 50  0001 C CNN
+F 1 "+5V" H 3350 1390 50  0000 C CNN
+F 2 "" H 3350 1250 50  0000 C CNN
+F 3 "" H 3350 1250 50  0000 C CNN
+	1    3350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1250 3350 1400
+Wire Wire Line
+	3350 1400 3150 1400
+Wire Wire Line
+	3350 1500 3150 1500
+Connection ~ 3350 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5F611127
+P 3250 3450
+AR Path="/5F611127" Ref="#PWR?"  Part="1" 
+AR Path="/5F60B892/5F611127" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 3250 3200 50  0001 C CNN
+F 1 "GND" H 3250 3300 50  0000 C CNN
+F 2 "" H 3250 3450 50  0000 C CNN
+F 3 "" H 3250 3450 50  0000 C CNN
+	1    3250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1600 3250 2000
+Wire Wire Line
+	3250 3000 3150 3000
+Wire Wire Line
+	3250 2800 3150 2800
+Connection ~ 3250 3000
+Wire Wire Line
+	3250 2300 3150 2300
+Connection ~ 3250 2800
+Wire Wire Line
+	3250 2000 3150 2000
+Connection ~ 3250 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5F611135
+P 2550 3450
+AR Path="/5F611135" Ref="#PWR?"  Part="1" 
+AR Path="/5F60B892/5F611135" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 2550 3200 50  0001 C CNN
+F 1 "GND" H 2550 3300 50  0000 C CNN
+F 2 "" H 2550 3450 50  0000 C CNN
+F 3 "" H 2550 3450 50  0000 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3300 2650 3300
+Wire Wire Line
+	2550 1800 2550 2600
+Wire Wire Line
+	2550 2600 2650 2600
+Connection ~ 2550 3300
+Connection ~ 2450 1400
+Wire Wire Line
+	2450 2200 2650 2200
+Wire Wire Line
+	2450 1400 2650 1400
+Wire Wire Line
+	2450 1250 2450 1400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F611143
+P 2450 1250
+AR Path="/5F611143" Ref="#PWR?"  Part="1" 
+AR Path="/5F60B892/5F611143" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 2450 1100 50  0001 C CNN
+F 1 "+3.3V" H 2450 1390 50  0000 C CNN
+F 2 "" H 2450 1250 50  0000 C CNN
+F 3 "" H 2450 1250 50  0000 C CNN
+	1    2450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1800 2650 1800
+Connection ~ 2550 2600
+Wire Wire Line
+	2650 1500 1500 1500
+Wire Wire Line
+	1500 1600 2650 1600
+Wire Wire Line
+	1500 1700 2650 1700
+Wire Wire Line
+	2650 1900 1500 1900
+Wire Wire Line
+	1500 2000 2650 2000
+Wire Wire Line
+	1500 2100 2650 2100
+Wire Wire Line
+	2650 2300 1500 2300
+Wire Wire Line
+	1500 2400 2650 2400
+Wire Wire Line
+	1500 2500 2650 2500
+Wire Wire Line
+	2650 2700 1500 2700
+Wire Wire Line
+	1500 2800 2650 2800
+Wire Wire Line
+	1500 2900 2650 2900
+Wire Wire Line
+	2650 3000 1500 3000
+Wire Wire Line
+	1500 3100 2650 3100
+Wire Wire Line
+	1500 3200 2650 3200
+Wire Wire Line
+	3150 3100 4200 3100
+Wire Wire Line
+	3150 3200 4200 3200
+Wire Wire Line
+	3150 2600 4200 2600
+Wire Wire Line
+	3150 2700 4200 2700
+Wire Wire Line
+	3150 2400 4200 2400
+Wire Wire Line
+	3150 2500 4200 2500
+Wire Wire Line
+	3150 2100 4200 2100
+Wire Wire Line
+	3150 2200 4200 2200
+Wire Wire Line
+	3150 1800 4200 1800
+Wire Wire Line
+	3150 1900 4200 1900
+Wire Wire Line
+	3150 1700 4200 1700
+Wire Wire Line
+	3150 2900 4200 2900
+Text Label 1500 1500 0    50   ~ 0
+GPIO2(SDA1)
+Text Label 1500 1600 0    50   ~ 0
+GPIO3(SCL1)
+Text Label 1500 1700 0    50   ~ 0
+GPIO4(GCLK)
+Text Label 1500 1900 0    50   ~ 0
+GPIO17(GEN0)
+Text Label 1500 2000 0    50   ~ 0
+GPIO27(GEN2)
+Text Label 1500 2100 0    50   ~ 0
+GPIO22(GEN3)
+Text Label 1500 2300 0    50   ~ 0
+GPIO10(SPI0_MOSI)
+Text Label 1500 2400 0    50   ~ 0
+GPIO9(SPI0_MISO)
+Text Label 1500 2500 0    50   ~ 0
+GPIO11(SPI0_SCK)
+Text Label 1500 2700 0    50   ~ 0
+ID_SD
+Text Label 1500 2800 0    50   ~ 0
+GPIO5
+Text Label 1500 2900 0    50   ~ 0
+GPIO6
+Text Label 1500 3000 0    50   ~ 0
+GPIO13(PWM1)
+Text Label 1500 3100 0    50   ~ 0
+GPIO19(SPI1_MISO)
+Text Label 1500 3200 0    50   ~ 0
+GPIO26
+Text Label 4200 3200 2    50   ~ 0
+GPIO20(SPI1_MOSI)
+Text Label 4200 3100 2    50   ~ 0
+GPIO16
+Text Label 4200 2900 2    50   ~ 0
+GPIO12(PWM0)
+Text Label 4200 2700 2    50   ~ 0
+ID_SC
+Text Label 4200 2600 2    50   ~ 0
+GPIO7(SPI1_CE_N)
+Text Label 4200 2500 2    50   ~ 0
+GPIO8(SPI0_CE_N)
+Text Label 4200 2400 2    50   ~ 0
+GPIO25(GEN6)
+Text Label 4200 2200 2    50   ~ 0
+GPIO24(GEN5)
+Text Label 4200 2100 2    50   ~ 0
+GPIO23(GEN4)
+Text Label 4200 1900 2    50   ~ 0
+GPIO18(GEN1)(PWM0)
+Text Label 4200 1800 2    50   ~ 0
+GPIO15(RXD0)
+Text Label 4200 1700 2    50   ~ 0
+GPIO14(TXD0)
+Wire Wire Line
+	3250 1600 3150 1600
+Connection ~ 3250 2000
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even P?
+U 1 1 5F611183
+P 2850 2300
+AR Path="/5F611183" Ref="P?"  Part="1" 
+AR Path="/5F60B892/5F611183" Ref="P1"  Part="1" 
+F 0 "P1" H 2900 3417 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 2900 3326 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H -2000 1350 50  0001 C CNN
+F 3 "" H -2000 1350 50  0001 C CNN
+	1    2850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3300 4200 3300
+Text Label 4200 3300 2    50   ~ 0
+GPIO21(SPI1_SCK)
+Wire Wire Line
+	3350 1400 3350 1500
+Wire Wire Line
+	3250 3000 3250 3450
+Wire Wire Line
+	3250 2800 3250 3000
+Wire Wire Line
+	3250 2300 3250 2800
+Wire Wire Line
+	2550 3300 2550 3450
+Wire Wire Line
+	2450 1400 2450 2200
+Wire Wire Line
+	2550 2600 2550 3300
+Wire Wire Line
+	3250 2000 3250 2300
+Text GLabel 1500 3000 0    50   Input ~ 0
+GPIO13
+Text GLabel 1500 3100 0    50   Input ~ 0
+GPIO19
+Text GLabel 1500 2900 0    50   Input ~ 0
+GPIO6
+Text GLabel 1500 2800 0    50   Input ~ 0
+GPIO5
+NoConn ~ 1500 3200
+NoConn ~ 1500 2700
+NoConn ~ 1500 2500
+NoConn ~ 1500 2400
+NoConn ~ 1500 2300
+NoConn ~ 1500 1900
+NoConn ~ 1500 2000
+NoConn ~ 1500 2100
+NoConn ~ 1500 1700
+NoConn ~ 1500 1600
+NoConn ~ 1500 1500
+NoConn ~ 4200 1700
+NoConn ~ 4200 1800
+NoConn ~ 4200 1900
+NoConn ~ 4200 2100
+NoConn ~ 4200 2200
+NoConn ~ 4200 2400
+NoConn ~ 4200 2500
+NoConn ~ 4200 2600
+NoConn ~ 4200 2700
+NoConn ~ 4200 2900
+NoConn ~ 4200 3100
+NoConn ~ 4200 3200
+NoConn ~ 4200 3300
+$EndSCHEMATC
