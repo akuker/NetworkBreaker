@@ -61,7 +61,7 @@ $EndComp
 Text Notes 3000 7050 0    50   ~ 0
 Mounting Holes
 $Comp
-L Isolator:TLP627-4 U1
+L Isolator:LTV-847M U1
 U 2 1 5F40E333
 P 5650 4950
 F 0 "U1" H 5650 5275 50  0000 C CNN
@@ -73,7 +73,7 @@ F 4 "C89243" H 5650 4950 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:TLP627-4 U1
+L Isolator:LTV-847M U1
 U 4 1 5F41365E
 P 5650 1750
 F 0 "U1" H 5650 2075 50  0000 C CNN
@@ -85,7 +85,7 @@ F 4 "C89243" H 5650 1750 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:TLP627-4 U1
+L Isolator:LTV-847M U1
 U 1 1 5F415A77
 P 5600 6550
 F 0 "U1" H 5600 6875 50  0000 C CNN
@@ -144,14 +144,6 @@ F 4 "C413172" V 4950 6450 50  0001 C CNN "LCSC"
 	1    4950 6450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5100 1650 5250 1650
-Wire Wire Line
-	5100 3250 5250 3250
-Wire Wire Line
-	5100 4850 5250 4850
-Wire Wire Line
-	5050 6450 5200 6450
 $Comp
 L power:GND #PWR04
 U 1 1 5F42AE0E
@@ -245,13 +237,9 @@ F 4 " C125090" H 4950 6650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 1850 5100 1850
-Wire Wire Line
 	4900 1850 4650 1850
 Wire Wire Line
 	4650 1850 4650 1900
-Wire Wire Line
-	5250 3450 5100 3450
 Wire Wire Line
 	4900 3450 4700 3450
 Wire Wire Line
@@ -260,10 +248,6 @@ Wire Wire Line
 	4900 5050 4700 5050
 Wire Wire Line
 	4700 5050 4700 5100
-Wire Wire Line
-	5100 5050 5250 5050
-Wire Wire Line
-	5200 6650 5050 6650
 Wire Wire Line
 	4850 6650 4650 6650
 Wire Wire Line
@@ -283,8 +267,6 @@ Wire Wire Line
 	6050 3200 6050 3250
 Wire Wire Line
 	6000 6400 6000 6450
-Wire Wire Line
-	6050 3450 6150 3450
 $Comp
 L Transistor_BJT:2N3904 Q3
 U 1 1 5F46B1C0
@@ -418,8 +400,6 @@ F 3 "" H 6050 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 4800 6050 4850
-Wire Wire Line
-	6050 5050 6150 5050
 $Comp
 L Transistor_BJT:2N3904 Q4
 U 1 1 5F4B54C4
@@ -503,8 +483,6 @@ F 3 "" H 6050 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 1600 6050 1650
-Wire Wire Line
-	6050 1850 6150 1850
 $Comp
 L Transistor_BJT:2N3904 Q2
 U 1 1 5F4BA1BF
@@ -586,8 +564,6 @@ F 3 "" H 6000 6400 50  0001 C CNN
 	1    6000 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 6650 6100 6650
 $Comp
 L Transistor_BJT:2N3904 Q1
 U 1 1 5F4E2F7F
@@ -966,15 +942,47 @@ Wire Wire Line
 Wire Wire Line
 	4600 6450 4850 6450
 $Comp
-L Isolator:TLP627-4 U1
+L Isolator:LTV-847M U1
 U 3 1 5F412367
 P 5650 3350
 F 0 "U1" H 5650 3675 50  0000 C CNN
 F 1 "TLP627-4" H 5650 3584 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5350 3150 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 5650 3350 50  0001 L CNN
-F 4 "C89243" H 5650 3350 50  0001 C CNN "LCSC"
+F 4 "C13497" H 5650 3350 50  0001 C CNN "LCSC"
 	3    5650 3350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 1650 5950 1650
+Wire Wire Line
+	5950 1850 6150 1850
+Wire Wire Line
+	5100 1850 5350 1850
+Wire Wire Line
+	5100 1650 5350 1650
+Wire Wire Line
+	5100 3250 5350 3250
+Wire Wire Line
+	5100 3450 5350 3450
+Wire Wire Line
+	6050 3250 5950 3250
+Wire Wire Line
+	5950 3450 6150 3450
+Wire Wire Line
+	5100 4850 5350 4850
+Wire Wire Line
+	5100 5050 5350 5050
+Wire Wire Line
+	5950 4850 6050 4850
+Wire Wire Line
+	5950 5050 6150 5050
+Wire Wire Line
+	5900 6450 6000 6450
+Wire Wire Line
+	5050 6650 5300 6650
+Wire Wire Line
+	5050 6450 5300 6450
+Wire Wire Line
+	5900 6650 6100 6650
 $EndSCHEMATC
