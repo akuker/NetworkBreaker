@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 6400 6000 6450
 $Comp
-L Transistor_BJT:2N3904 Q3
+L Transistor_BJT:BC818 Q3
 U 1 1 5F46B1C0
 P 6550 3450
 F 0 "Q3" H 6740 3496 50  0000 L CNN
@@ -401,7 +401,7 @@ $EndComp
 Wire Wire Line
 	6050 4800 6050 4850
 $Comp
-L Transistor_BJT:2N3904 Q4
+L Transistor_BJT:BC818 Q4
 U 1 1 5F4B54C4
 P 6550 5050
 F 0 "Q4" H 6740 5096 50  0000 L CNN
@@ -484,7 +484,7 @@ $EndComp
 Wire Wire Line
 	6050 1600 6050 1650
 $Comp
-L Transistor_BJT:2N3904 Q2
+L Transistor_BJT:BC818 Q2
 U 1 1 5F4BA1BF
 P 6550 1850
 F 0 "Q2" H 6740 1896 50  0000 L CNN
@@ -565,7 +565,7 @@ F 3 "" H 6000 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q1
+L Transistor_BJT:BC818 Q1
 U 1 1 5F4E2F7F
 P 6500 6650
 F 0 "Q1" H 6690 6696 50  0000 L CNN
@@ -985,4 +985,42 @@ Wire Wire Line
 	5050 6450 5300 6450
 Wire Wire Line
 	5900 6650 6100 6650
+Text Notes 6400 1850 0    50   ~ 0
+B
+Text Notes 6550 1700 0    50   ~ 0
+C
+Text Notes 6550 2050 0    50   ~ 0
+E
+Wire Notes Line
+	6200 850  6200 1050
+Wire Notes Line
+	6200 1050 5800 1050
+Wire Notes Line
+	5800 1050 5800 850 
+Wire Notes Line
+	5950 850  5950 750 
+Wire Notes Line
+	5950 750  6050 750 
+Wire Notes Line
+	6050 750  6050 850 
+Wire Notes Line
+	5800 850  6200 850 
+Wire Notes Line
+	6150 1050 6150 1150
+Wire Notes Line
+	6150 1150 6050 1150
+Wire Notes Line
+	6050 1150 6050 1050
+Wire Notes Line
+	5850 1050 5850 1150
+Wire Notes Line
+	5850 1150 5950 1150
+Wire Notes Line
+	5950 1150 5950 1050
+Text Notes 5950 750  0    50   ~ 0
+C 3
+Text Notes 6100 1250 0    50   ~ 0
+E 2
+Text Notes 5850 1250 0    50   ~ 0
+B 1
 $EndSCHEMATC

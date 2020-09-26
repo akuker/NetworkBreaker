@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -248,14 +248,6 @@ Wire Wire Line
 	2550 2600 2550 3300
 Wire Wire Line
 	3250 2000 3250 2300
-Text GLabel 1500 3000 0    50   Input ~ 0
-GPIO13
-Text GLabel 1500 3100 0    50   Input ~ 0
-GPIO19
-Text GLabel 1500 2900 0    50   Input ~ 0
-GPIO6
-Text GLabel 1500 2800 0    50   Input ~ 0
-GPIO5
 NoConn ~ 1500 3200
 NoConn ~ 1500 2700
 NoConn ~ 1500 2500
@@ -280,4 +272,12 @@ NoConn ~ 4200 2900
 NoConn ~ 4200 3100
 NoConn ~ 4200 3200
 NoConn ~ 4200 3300
+Text GLabel 1500 3100 0    50   Input ~ 0
+CBUS3
+Text GLabel 1500 3000 0    50   Input ~ 0
+CBUS2
+Text GLabel 1500 2900 0    50   Input ~ 0
+CBUS1
+Text GLabel 1500 2800 0    50   Input ~ 0
+CBUS0
 $EndSCHEMATC

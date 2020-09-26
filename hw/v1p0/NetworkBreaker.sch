@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:NetworkBreaker-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date "15 nov 2012"
 Rev ""
@@ -13,84 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Relay:FINDER-30.22 K4
-U 1 1 5F40CC5A
-P 4650 6250
-F 0 "K4" H 5280 6296 50  0000 L CNN
-F 1 "M4-5HAW" H 5280 6205 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Finder_30.22" H 6000 6220 50  0001 C CNN
-F 3 "http://gfinder.findernet.com/assets/Series/354/S30EN.pdf" H 4450 6250 50  0001 C CNN
-F 4 "C165868" V 4650 6250 50  0001 C CNN "LCSC"
-	1    4650 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:FINDER-30.22 K3
-U 1 1 5F40BA05
-P 4700 4650
-F 0 "K3" H 5330 4696 50  0000 L CNN
-F 1 "M4-5HAW" H 5330 4605 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Finder_30.22" H 6050 4620 50  0001 C CNN
-F 3 "http://gfinder.findernet.com/assets/Series/354/S30EN.pdf" H 4500 4650 50  0001 C CNN
-F 4 "C165868" V 4700 4650 50  0001 C CNN "LCSC"
-	1    4700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:FINDER-30.22 K2
-U 1 1 5F40B090
-P 4700 3100
-F 0 "K2" H 5330 3146 50  0000 L CNN
-F 1 "M4-5HAW" H 5330 3055 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Finder_30.22" H 6050 3070 50  0001 C CNN
-F 3 "http://gfinder.findernet.com/assets/Series/354/S30EN.pdf" H 4500 3100 50  0001 C CNN
-F 4 "C165868" V 4700 3100 50  0001 C CNN "LCSC"
-	1    4700 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:FINDER-30.22 K1
-U 1 1 5F406592
-P 4700 1450
-F 0 "K1" H 5330 1496 50  0000 L CNN
-F 1 "M4-5HAW" H 5330 1405 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Finder_30.22" H 6050 1420 50  0001 C CNN
-F 3 "http://gfinder.findernet.com/assets/Series/354/S30EN.pdf" H 4500 1450 50  0001 C CNN
-F 4 "C165868" V 4700 1450 50  0001 C CNN "LCSC"
-	1    4700 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2700 4300 2800
-$Comp
-L power:+5V #PWR05
-U 1 1 5F4BA1B7
-P 2150 1750
-F 0 "#PWR05" H 2150 1600 50  0001 C CNN
-F 1 "+5V" H 2165 1923 50  0000 C CNN
-F 2 "" H 2150 1750 50  0001 C CNN
-F 3 "" H 2150 1750 50  0001 C CNN
-	1    2150 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR07
-U 1 1 5F4BA1D1
-P 4300 1100
-F 0 "#PWR07" H 4300 950 50  0001 C CNN
-F 1 "+5V" H 4315 1273 50  0000 C CNN
-F 2 "" H 4300 1100 50  0001 C CNN
-F 3 "" H 4300 1100 50  0001 C CNN
-	1    4300 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 5900 4250 5950
-Wire Wire Line
-	4300 4300 4300 4350
-Wire Wire Line
-	4300 1100 4300 1150
 $Comp
 L Connector:8P8C_Shielded J1
 U 1 1 5F4FF29B
@@ -211,102 +134,6 @@ Wire Wire Line
 	1450 5550 2350 5550
 Text Label 1900 5550 0    50   ~ 0
 ENET2_PIN1
-Text Label 4800 1100 1    50   ~ 0
-ENET3_PIN8
-Text Label 5200 1100 1    50   ~ 0
-ENET3_PIN7
-Text Label 4800 2750 1    50   ~ 0
-ENET3_PIN6
-Text Label 5200 2750 1    50   ~ 0
-ENET3_PIN5
-Text Label 4800 4300 1    50   ~ 0
-ENET3_PIN4
-Text Label 5200 4300 1    50   ~ 0
-ENET3_PIN3
-Text Label 4750 5900 1    50   ~ 0
-ENET3_PIN2
-Text Label 5150 5900 1    50   ~ 0
-ENET3_PIN1
-Text Label 4700 1800 3    50   ~ 0
-ENET1_PIN8
-Text Label 5100 1800 3    50   ~ 0
-ENET1_PIN7
-Text Label 4700 3850 1    50   ~ 0
-ENET1_PIN6
-Text Label 5100 3900 1    50   ~ 0
-ENET1_PIN5
-Text Label 4700 5450 1    50   ~ 0
-ENET1_PIN4
-Text Label 5100 5450 1    50   ~ 0
-ENET1_PIN3
-Text Label 4650 7050 1    50   ~ 0
-ENET1_PIN2
-Text Label 5050 7050 1    50   ~ 0
-ENET1_PIN1
-Text Label 4600 1100 1    50   ~ 0
-ENET2_PIN8
-Text Label 5000 1100 1    50   ~ 0
-ENET2_PIN7
-Text Label 4600 2750 1    50   ~ 0
-ENET2_PIN6
-Text Label 5000 2750 1    50   ~ 0
-ENET2_PIN5
-Text Label 4600 4300 1    50   ~ 0
-ENET2_PIN4
-Text Label 5000 4300 1    50   ~ 0
-ENET2_PIN3
-Text Label 4550 5900 1    50   ~ 0
-ENET2_PIN2
-Text Label 4950 5900 1    50   ~ 0
-ENET2_PIN1
-Wire Wire Line
-	4600 650  4600 1150
-Wire Wire Line
-	4800 1150 4800 650 
-Wire Wire Line
-	5000 1150 5000 650 
-Wire Wire Line
-	5200 1150 5200 650 
-Wire Wire Line
-	4700 1750 4700 2250
-Wire Wire Line
-	5100 1750 5100 2250
-Wire Wire Line
-	4600 2300 4600 2800
-Wire Wire Line
-	4800 2800 4800 2300
-Wire Wire Line
-	5000 2800 5000 2300
-Wire Wire Line
-	5200 2800 5200 2300
-Wire Wire Line
-	4600 3850 4600 4350
-Wire Wire Line
-	4800 4350 4800 3850
-Wire Wire Line
-	5000 4350 5000 3850
-Wire Wire Line
-	5200 4350 5200 3850
-Wire Wire Line
-	4550 5450 4550 5950
-Wire Wire Line
-	4750 5950 4750 5450
-Wire Wire Line
-	4950 5950 4950 5450
-Wire Wire Line
-	5150 5950 5150 5450
-Wire Wire Line
-	4700 3400 4700 3900
-Wire Wire Line
-	5100 3400 5100 3900
-Wire Wire Line
-	4700 4950 4700 5450
-Wire Wire Line
-	5100 4950 5100 5450
-Wire Wire Line
-	4650 6550 4650 7050
-Wire Wire Line
-	5050 6550 5050 7050
 $Sheet
 S 650  1100 1800 200 
 U 5F613284
@@ -339,301 +166,6 @@ Wire Wire Line
 	1050 5750 1150 5750
 Wire Wire Line
 	1050 4450 1150 4450
-Text GLabel 1100 2100 0    50   Input ~ 0
-CBUS0
-$Comp
-L Transistor_Array:ULN2003 U1
-U 1 1 5F562C93
-P 1700 2300
-F 0 "U1" H 1700 2967 50  0000 C CNN
-F 1 "ULN2003" H 1700 2876 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 1750 1750 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 1800 2100 50  0001 C CNN
-F 4 "C72751" H 1700 2300 50  0001 C CNN "LCSC"
-	1    1700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR06
-U 1 1 5F4E2F91
-P 4250 5900
-F 0 "#PWR06" H 4250 5750 50  0001 C CNN
-F 1 "+5V" H 4265 6073 50  0000 C CNN
-F 2 "" H 4250 5900 50  0001 C CNN
-F 3 "" H 4250 5900 50  0001 C CNN
-	1    4250 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR09
-U 1 1 5F4B54D6
-P 4300 4300
-F 0 "#PWR09" H 4300 4150 50  0001 C CNN
-F 1 "+5V" H 4315 4473 50  0000 C CNN
-F 2 "" H 4300 4300 50  0001 C CNN
-F 3 "" H 4300 4300 50  0001 C CNN
-	1    4300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR08
-U 1 1 5F4A34A5
-P 4300 2700
-F 0 "#PWR08" H 4300 2550 50  0001 C CNN
-F 1 "+5V" H 4315 2873 50  0000 C CNN
-F 2 "" H 4300 2700 50  0001 C CNN
-F 3 "" H 4300 2700 50  0001 C CNN
-	1    4300 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 1750 2150 1900
-Wire Wire Line
-	2150 1900 2100 1900
-Wire Wire Line
-	2100 2100 2600 2100
-Wire Wire Line
-	2100 2200 2600 2200
-Wire Wire Line
-	2100 2300 2600 2300
-Wire Wire Line
-	2100 2400 2600 2400
-Text Label 2200 2100 0    50   ~ 0
-RELAY_1_CTRL
-Text Label 2200 2200 0    50   ~ 0
-RELAY_2_CTRL
-Text Label 2200 2300 0    50   ~ 0
-RELAY_3_CTRL
-Text Label 2200 2400 0    50   ~ 0
-RELAY_4_CTRL
-Text Label 3750 1950 0    50   ~ 0
-RELAY_1_CTRL
-Text Label 3750 3600 0    50   ~ 0
-RELAY_2_CTRL
-Text Label 3750 5200 0    50   ~ 0
-RELAY_3_CTRL
-Text Label 3750 6800 0    50   ~ 0
-RELAY_4_CTRL
-Wire Wire Line
-	4250 6550 4250 6800
-Wire Wire Line
-	3650 6800 4250 6800
-Wire Wire Line
-	4300 4950 4300 5200
-Wire Wire Line
-	3650 5200 4300 5200
-Wire Wire Line
-	4300 3400 4300 3600
-Wire Wire Line
-	3650 3600 4300 3600
-Wire Wire Line
-	4300 1750 4300 1950
-Wire Wire Line
-	3650 1950 4300 1950
-Wire Wire Line
-	1100 2100 1200 2100
-Wire Wire Line
-	1200 2100 1200 2200
-Wire Wire Line
-	1200 2200 1300 2200
-Connection ~ 1200 2100
-Wire Wire Line
-	1200 2100 1300 2100
-Wire Wire Line
-	1200 2200 1200 2300
-Wire Wire Line
-	1200 2300 1300 2300
-Connection ~ 1200 2200
-Wire Wire Line
-	1200 2300 1200 2400
-Wire Wire Line
-	1200 2400 1300 2400
-Connection ~ 1200 2300
-Text GLabel 1100 2500 0    50   Input ~ 0
-CBUS1
-Text GLabel 1100 2600 0    50   Input ~ 0
-CBUS2
-Text GLabel 1100 2700 0    50   Input ~ 0
-CBUS3
-Wire Wire Line
-	1100 2500 1300 2500
-Wire Wire Line
-	1100 2600 1300 2600
-Wire Wire Line
-	1100 2700 1300 2700
-$Comp
-L Device:LED_Small D1
-U 1 1 5F5C27DE
-P 9700 900
-F 0 "D1" H 9700 603 50  0000 C CNN
-F 1 "LED_Small" H 9700 694 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 9700 785 50  0000 C CNN
-F 3 "~" V 9700 900 50  0001 C CNN
-	1    9700 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D2
-U 1 1 5F5C4D90
-P 9700 1200
-F 0 "D2" H 9700 993 50  0000 C CNN
-F 1 "LED_Small" H 9700 1084 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 9700 1200 50  0001 C CNN
-F 3 "~" V 9700 1200 50  0001 C CNN
-	1    9700 1200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small D3
-U 1 1 5F5C5B68
-P 9700 1500
-F 0 "D3" H 9700 1293 50  0000 C CNN
-F 1 "LED_Small" H 9700 1384 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 9700 1500 50  0001 C CNN
-F 3 "~" V 9700 1500 50  0001 C CNN
-	1    9700 1500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2100 2500 2600 2500
-Wire Wire Line
-	2100 2600 2600 2600
-Wire Wire Line
-	2100 2700 2600 2700
-Text Label 2200 2500 0    50   ~ 0
-LED_1_CTRL
-Text Label 2200 2600 0    50   ~ 0
-LED_2_CTRL
-Text Label 2200 2700 0    50   ~ 0
-LED_3_CTRL
-$Comp
-L power:GND #PWR04
-U 1 1 5F5CF1A8
-P 1700 3000
-F 0 "#PWR04" H 1700 2750 50  0001 C CNN
-F 1 "GND" H 1705 2827 50  0000 C CNN
-F 2 "" H 1700 3000 50  0001 C CNN
-F 3 "" H 1700 3000 50  0001 C CNN
-	1    1700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR010
-U 1 1 5F5CF50C
-P 9300 900
-F 0 "#PWR010" H 9300 750 50  0001 C CNN
-F 1 "+5V" H 9315 1073 50  0000 C CNN
-F 2 "" H 9300 900 50  0001 C CNN
-F 3 "" H 9300 900 50  0001 C CNN
-	1    9300 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 900  9300 1200
-Wire Wire Line
-	9300 1500 9600 1500
-Wire Wire Line
-	9600 1200 9300 1200
-Connection ~ 9300 1200
-Wire Wire Line
-	9300 1200 9300 1500
-Wire Wire Line
-	9600 900  9300 900 
-Connection ~ 9300 900 
-Wire Wire Line
-	10200 900  10700 900 
-Wire Wire Line
-	10200 1200 10700 1200
-Wire Wire Line
-	10200 1500 10700 1500
-Text Label 10300 900  0    50   ~ 0
-LED_1_CTRL
-Text Label 10300 1200 0    50   ~ 0
-LED_2_CTRL
-Text Label 10300 1500 0    50   ~ 0
-LED_3_CTRL
-$Comp
-L Device:R_Small R1
-U 1 1 5F5E05DA
-P 10100 900
-F 0 "R1" V 9904 900 50  0000 C CNN
-F 1 "R_Small" V 9995 900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10100 900 50  0001 C CNN
-F 3 "~" H 10100 900 50  0001 C CNN
-	1    10100 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5F5E0F1B
-P 10100 1200
-F 0 "R2" V 9904 1200 50  0000 C CNN
-F 1 "R_Small" V 9995 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10100 1200 50  0001 C CNN
-F 3 "~" H 10100 1200 50  0001 C CNN
-	1    10100 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 5F5E10EF
-P 10100 1500
-F 0 "R3" V 9904 1500 50  0000 C CNN
-F 1 "R_Small" V 9995 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10100 1500 50  0001 C CNN
-F 3 "~" H 10100 1500 50  0001 C CNN
-	1    10100 1500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9800 900  10000 900 
-Wire Wire Line
-	9800 1200 10000 1200
-Wire Wire Line
-	9800 1500 10000 1500
-Wire Wire Line
-	1700 3000 1700 2900
-$Comp
-L Device:LED_Small D4
-U 1 1 5F63B689
-P 9700 1800
-F 0 "D4" H 9700 1593 50  0000 C CNN
-F 1 "LED_Small" H 9700 1684 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 9700 1800 50  0001 C CNN
-F 3 "~" V 9700 1800 50  0001 C CNN
-	1    9700 1800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9300 1800 9600 1800
-Wire Wire Line
-	9300 1500 9300 1800
-$Comp
-L Device:R_Small R6
-U 1 1 5F63B693
-P 10100 1800
-F 0 "R6" V 9904 1800 50  0000 C CNN
-F 1 "R_Small" V 9995 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 10100 1800 50  0001 C CNN
-F 3 "~" H 10100 1800 50  0001 C CNN
-	1    10100 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9800 1800 10000 1800
-$Comp
-L power:GND #PWR024
-U 1 1 5F64321B
-P 10450 1800
-F 0 "#PWR024" H 10450 1550 50  0001 C CNN
-F 1 "GND" V 10455 1672 50  0000 R CNN
-F 2 "" H 10450 1800 50  0001 C CNN
-F 3 "" H 10450 1800 50  0001 C CNN
-	1    10450 1800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10200 1800 10450 1800
 NoConn ~ 1450 6100
 NoConn ~ 1450 6200
 NoConn ~ 1450 6300
@@ -642,4 +174,64 @@ NoConn ~ 1450 6500
 NoConn ~ 1450 6600
 NoConn ~ 1450 6700
 NoConn ~ 1450 6800
+$Sheet
+S 650  1500 1800 250 
+U 5F5DBEDA
+F0 "Relay_Ctrl_and_LEDs" 50
+F1 "Relay_Ctrl_and_LEDs.sch" 50
+$EndSheet
+Text GLabel 2350 3550 2    50   Input ~ 0
+ENET1_PIN8
+Text GLabel 2350 3650 2    50   Input ~ 0
+ENET1_PIN7
+Text GLabel 2350 3750 2    50   Input ~ 0
+ENET1_PIN6
+Text GLabel 2350 3850 2    50   Input ~ 0
+ENET1_PIN5
+Text GLabel 2350 3950 2    50   Input ~ 0
+ENET1_PIN4
+Text GLabel 2350 4050 2    50   Input ~ 0
+ENET1_PIN3
+Text GLabel 2350 4150 2    50   Input ~ 0
+ENET1_PIN2
+Text GLabel 2350 4250 2    50   Input ~ 0
+ENET1_PIN1
+Text GLabel 2350 4850 2    50   Input ~ 0
+ENET2_PIN8
+Text GLabel 2350 4950 2    50   Input ~ 0
+ENET2_PIN7
+Text GLabel 2350 5050 2    50   Input ~ 0
+ENET2_PIN6
+Text GLabel 2350 5150 2    50   Input ~ 0
+ENET2_PIN5
+Text GLabel 2350 5250 2    50   Input ~ 0
+ENET2_PIN4
+Text GLabel 2350 5350 2    50   Input ~ 0
+ENET2_PIN3
+Text GLabel 2350 5450 2    50   Input ~ 0
+ENET2_PIN2
+Text GLabel 2350 5550 2    50   Input ~ 0
+ENET2_PIN1
+Text GLabel 2350 6100 2    50   Input ~ 0
+ENET3_PIN8
+Text GLabel 2350 6200 2    50   Input ~ 0
+ENET3_PIN7
+Text GLabel 2350 6300 2    50   Input ~ 0
+ENET3_PIN6
+Text GLabel 2350 6400 2    50   Input ~ 0
+ENET3_PIN5
+Text GLabel 2350 6500 2    50   Input ~ 0
+ENET3_PIN4
+Text GLabel 2350 6600 2    50   Input ~ 0
+ENET3_PIN3
+Text GLabel 2350 6700 2    50   Input ~ 0
+ENET3_PIN2
+Text GLabel 2350 6800 2    50   Input ~ 0
+ENET3_PIN1
+$Sheet
+S 650  2050 1800 300 
+U 5F5F72A9
+F0 "Relays" 50
+F1 "Relays.sch" 50
+$EndSheet
 $EndSCHEMATC
